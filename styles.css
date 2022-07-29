@@ -1,7 +1,11 @@
 div {
-    color: navy;
+    color: green;
     font-family: sans-serif;
 }
 strong {
-    color: blue;
+    /* !imporant used here to demonstrate how it overrides other color specifications */
+    color: blue !important;
+}
+.highlight {
+    color: red;
 }
