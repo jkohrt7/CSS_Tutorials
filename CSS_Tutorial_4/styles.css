@@ -8,3 +8,8 @@ div {
     width: 250px;
     margin: 20px auto 60px;
 }
+
+.home {
+    border: none;
+    margin: 0 0;
+}
