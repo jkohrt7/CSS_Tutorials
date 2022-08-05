@@ -1,0 +1,3 @@
+The tutorial this subdirectory is based on can be found [here](https://www.digitalocean.com/community/tutorials/how-to-use-common-units-in-css).
+
+In many cases, proportional units like percents, ems and rems should be used to give webpages more flexibility. These proportional values can be calculated via the formula `target / context = value` (multiplied by 100 for percents). Rems are unique (and useful) because they use the browser's default values for context, avoiding a lot of headaches related to context-dependent measurements.
