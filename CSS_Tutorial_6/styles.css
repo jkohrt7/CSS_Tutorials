@@ -1,0 +1,40 @@
+body {
+	font: 1em/1.5 'Public Sans', sans-serif;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Quicksand', sans-serif;
+    line-height: 1.15;
+}
+
+h1 {
+	font-size: 2.5rem; /* 40px */
+    text-transform: capitalize;
+}
+
+h2 {
+	font-size: 1.875rem; /* 30px */
+}
+
+h3 {
+	font-size: 1.5rem; /* 24px */
+    margin: 2em 0 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+}
+
+h3 + p {
+	margin-top: 0;
+}
+
+p {
+	font-size: 1.25rem; /* 20px */
+}
+
+article {
+	margin: 0 auto;
+	width: 90%;
+    max-width: 70ch;
+}
