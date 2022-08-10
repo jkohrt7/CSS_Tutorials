@@ -1,0 +1,3 @@
+The tutorial this subdirectory is based on can be found [here](https://www.digitalocean.com/community/tutorials/how-to-lay-out-text-with-css).
+
+Covers several methods of formatting text layout on a page to improve readability. Using the adjacent sibling combinator, headers and paragraphs can have more appropriate whitespace, and with ch units, you can ensure your ines of text are the appropriate 45-75 characters in length. Additionally, you should use text-transform to create Capitalized and UPPERCASE text instead of using it in HTML (it's easier for screen readers).
