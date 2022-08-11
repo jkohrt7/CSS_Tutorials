@@ -1,0 +1,38 @@
+article {
+	margin: 2rem auto;
+	padding: 2rem;
+	width: 90%;
+	max-width: 40rem;
+	box-sizing: border-box;
+	background-color: hsl(200, 50%, 94%);
+	border: 0.25rem solid hsl(200, 50%, 80%);
+	color: hsl(200, 50%, 27%);
+}
+
+h1 {
+	font-size: 2rem;
+	margin: 0 0 1rem;
+	text-align: center;
+	color: hsl(20, 100%, 25%);
+    
+}
+
+hr {
+	height: 0.25rem;
+	margin: 2rem auto;
+	width: 90%;
+	max-width: 18rem;
+	border-radius: 0.5rem;
+	border: 2px solid hsl(20, 100%, 35%);
+	background-color: hsl(20, 100%, 50%);
+}
+
+footer {
+	margin-top: 2rem;
+	font-size: 0.875rem;
+    color: hsl(200, 100%, 45%);
+}
+
+footer a {
+    color: inherit;
+}
