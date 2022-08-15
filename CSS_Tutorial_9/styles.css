@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #444;
+}
+
+.content-width {
+    margin: 1em auto;
+    width: 90%;
+    max-width: 60ch;
+}
+
+.style-1 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.125em;
+}
+
+.style-2 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.color-1 {
+  color: hsl(300, 70%, 40%);
+}
+
+.color-2 {
+  color: hsl(250, 70%, 40%);
+}
+
+.color-3 {
+  color: hsl(200, 70%, 40%);
+}
+
+.color-1.color-2 {
+  color: hsl(275, 70%, 40%);
+}
+
+.color-2.color-3 {
+  color: hsl(225, 70%, 40%);
+}
+
+abbr[title] {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: hsl(0, 0%, 70%);
+}
+
+[href="https://example.com"] {
+  color: hsl(150, 70%, 40%);
+}
+
+[href="https://example.com"]:hover {
+  color: hsl(150, 70%, 20%);
+}
+
+[href^="https://"]::before {
+  content: '\1F512';
+}
+
+#header,
+#content {
+  margin: 1em auto;
+  width: 90%;
+  max-width: 60ch;
+}
+
