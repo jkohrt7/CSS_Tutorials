@@ -1,0 +1,3 @@
+The tutorial this subdirectory is based on can be found [here](https://www.digitalocean.com/community/tutorials/how-to-use-links-and-buttons-with-state-pseudo-classes-in-css).
+
+The state of buttons and links can be clarified through the use of pseudo-classes like :visited, :focus and :hover. Combining color chnages with :hover can be used to indicate that a button is clickable, and :active can show that the button has been pressed 'down'. :focus and :focus-visible can be used to give keyboard users more visual indicators of their location, with the latter exclusively appearing when a link or button is tabbed to. 
