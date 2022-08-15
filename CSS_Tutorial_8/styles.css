@@ -37,8 +37,8 @@ a:hover,
   color: #b1b;
 }
 
-a:focus,
-.link:focus {
+a:focus-visible,
+.link:focus-visible {
   color: black;
   outline: 2px solid gold;
   background-color: gold;
@@ -91,7 +91,7 @@ button {
     border-color: #25a;
 }
 
-.button:focus {
+.button:focus-visible {
     outline: none;
     color: black;
     background-color: gold;
@@ -104,3 +104,4 @@ button {
     background-color: #127;
     border-color: #127;
 }
+
