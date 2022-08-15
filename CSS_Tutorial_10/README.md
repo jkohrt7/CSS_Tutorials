@@ -1,0 +1,3 @@
+The tutorial this subdirectory is based on can be found [here](https://www.digitalocean.com/community/tutorials/how-to-style-a-table-with-css).
+
+Tutorial 10 covers setting up a table with HTML and some common styling techniques for adding clarity and emphasis to a table. `Table` tags contain a `caption`, `thead` and `tbody` tag at their highest level. These then contain th tags for row and column names or tr tags for row/cell content. Most of the CSS is nothing new, but an important `table`- exclusive property is border-collapse, which makes cells adjacent instead of spread out.
