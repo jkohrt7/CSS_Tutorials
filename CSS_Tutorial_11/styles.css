@@ -1,0 +1,101 @@
+body {
+    font: 100%/1.5 Comfortaa, sans-serif;
+    color: hsl(300, 100%, 10%);
+    background-color: hsl(300, 100%, 98%);
+}
+
+img {
+  max-width: 100%;
+}
+
+article {
+    width: 90%;
+    max-width: 75ch;
+    margin: 2rem auto;
+}
+
+h1 {
+    font-size: 1.75rem;
+    color: hsl(204, 100%, 29%);
+    margin: 1em 0  0.5em;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: hsl(204, 100%, 29%);
+    margin: 1em 0 0.5em;
+}
+
+hr {	
+  border: 0.125rem solid hsl(300, 50%, 90%);
+  margin: 3rem 0;
+  clear: both;
+}
+
+blockquote {
+  padding: 1rem;
+  background-color: hsl(204, 100%, 15%);
+  color: hsl(24, 100%, 85%);
+  float: left;
+  width: 40%;
+  margin: 0 1rem 1rem 0;
+}
+
+blockquote p {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+ol {
+  padding: 2rem;
+  background-color: hsl(300, 60%, 95%);
+  border: 0.25rem solid hsl(300, 50%, 90%);
+}
+
+
+@media (min-width: 40rem) {
+    img {
+        float: right;
+        max-width: 50%;
+        margin: 0 0 1rem 1rem;
+    }
+
+    .column {
+        columns: 2;
+        column-gap: 2rem;
+        column-rule: 2px solid hsl(300, 50%, 90%);
+    }
+
+    .column p:first-child {
+        margin-top: 0;
+    }
+
+    .column p {
+        break-inside: avoid;
+    }
+
+    ol {
+        columns: 2;
+        column-gap: 3rem;
+        margin: 2rem 0;
+    }
+
+    ol li {
+        margin-bottom: 1em;
+    }
+}
+
+
+
+
+@media (min-width: 80rem) {
+  img {
+    max-width: 100%;
+    margin: 1rem -40% 1rem 2rem;
+  }
+
+  ol {
+    columns: 3;
+    margin: 2rem -5rem;
+  }
+}

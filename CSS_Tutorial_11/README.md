@@ -1,0 +1,3 @@
+The tutorial this subdirectory is based on can be found [here](hhttps://www.digitalocean.com/community/tutorials/how-to-use-float-and-columns-to-lay-out-content-with-css).
+
+This tutorial covers the still-relevant grandfather of layout properties, the float. float can be used to style text into multiple columns, to move images to the left and right of paragraphs, and to create flexible websites when combined with size based media queries. The clear property can be used to 'clear' floats, instead forcing an element below left, right, or both kinds of floated elements.
