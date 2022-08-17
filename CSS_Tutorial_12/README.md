@@ -1,0 +1,3 @@
+The tutorial this subdirectory is based on can be found [here](https://www.digitalocean.com/community/tutorials/how-to-apply-background-styles-to-html-elements-with-css).
+
+Covers many important css background properties. Some quirky things that I learned about include needing to include a slash between background size and position when using the background shorthand and the ability to layer backgrounds by separating groups of values with a comma. With the combination of backgrounds, you can get really neat combinations of gradients and background-images.

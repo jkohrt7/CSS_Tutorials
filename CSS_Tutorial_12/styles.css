@@ -1,0 +1,122 @@
+body {
+  font-family: system-ui, sans-serif;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+}
+
+.grid {
+  width: 90%;
+  max-width: 80rem;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.item {
+  border: 1px solid #999;
+  background-color: white;
+}
+
+.preview {
+  height: 16rem;
+  border-bottom: 1px solid #999;
+}
+
+.style-01 {
+  background-color: deeppink;
+}
+
+.style-02 {
+  background-image: url("../images/photo.jpg");
+}
+
+.style-03 {
+  background-image: url("../images/pattern.png");
+}
+
+.style-04 {
+  background-image: url("../images/pattern-x.png");
+  background-repeat: repeat-x;
+}
+
+.style-05 {
+  background-image: url("../images/pattern-y.png");
+  background-repeat: repeat-y;
+}
+
+.style-06 {
+  background-image: url("../images/pattern.png");
+  background-repeat: no-repeat;
+}
+
+.style-07 {
+    background-image: url("../images/pattern.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.style-08 {
+    background-image: url("../images/pattern.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.style-09 {
+    background-image: url("../images/pattern.png");
+    background-repeat: no-repeat;
+    background-position: right 10% bottom 40px;
+}
+
+.style-10 {
+    background-image: url("../images/photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.style-11 {
+    background-image: url("../images/photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.style-12 {
+    background-image: url("../images/photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30% auto;
+}
+
+.style-13 {
+    background-image: url("../images/pattern.png");
+    background-attachment: fixed;
+}
+
+.style-14 {
+    background: url("../images/pattern.png") center repeat-x gold;
+}
+
+.style-15 {
+    background: url("../images/pattern.png") center / 64px #222;
+}
+
+.style-16 {
+    background-image: linear-gradient(to right, deeppink, orange);
+}
+
+.style-17 {
+    background-image: linear-gradient(175deg, navy 0%, dodgerblue 35%, skyblue 50%, gold 50%, orange 51%, saddlebrown 100%);
+}
+
+.style-18 {
+    background:
+        url("./images/pattern-y.png") center left / 64px repeat-y,
+        linear-gradient(to top left, dodgerblue 10%, transparent 80%),
+        url("../images/photo.jpg") center / cover no-repeat
+    ;
+}
