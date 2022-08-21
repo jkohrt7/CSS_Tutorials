@@ -1,3 +1,0 @@
-The tutorial this subdirectory is based on can be found [here](https://www.digitalocean.com/community/tutorials/how-to-use-relationships-to-select-html-elements-with-css).
-
-There are a ton of ways to select elements for styling with CSS. When using these selectors, the rightmost element is the one being selected, with the rest providing some sort of scoping. For example, `.child p{}` selects all p tags that are within a tag that has the child class. Some of the more complex selectors include the adjacent sibling selector, `~`, which only selects tags that are adjacent to one another in a linked HTML file.
