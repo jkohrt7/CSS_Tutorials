@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: hsl(215, 5%, 20%);
+  background-color: hsl(215, 5%, 98%);
+}
+
+.content-width {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+a {
+  color: hsl(215, 80%, 50%);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.button {
+  display:inline-block;
+  padding: 0.5rem 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  color: hsl(215, 20%, 95%);
+  background: linear-gradient(to bottom, hsl(215, 80%, 60%), hsl(215, 80%, 40%));
+  border-radius: 0.25rem;
+  border: 1px solid hsl(215, 80%, 35%);
+  text-shadow: 0 -1px hsl(215, 80%, 35%);
+  box-shadow: 0 1px hsl(215, 80%, 70%) inset;
+}
+
+.button:hover {
+  box-shadow: 0 1px hsl(215, 80%, 60%) inset;
+  background: linear-gradient(to bottom, hsl(215, 80%, 50%), hsl(215, 80%, 30%));
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+caption {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(215, 25%, 25%);
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+
+tr {
+  text-align: center;
+}
+
+thead > tr {
+  color: hsl(215, 25%, 100%);
+  background-color: hsl(215, 80%, 20%);
+}
+
+tbody > tr:nth-child(even) {
+  background-color: hsl(215, 50%, 93%);
+}
+
+tbody th {
+  font-size: 1.125rem;
+}
+
+td, th {
+  padding: 0.5rem;
+}
+
+@media (max-width: 60rem) {
+  table,
+  caption,
+  tbody,
+  tr,
+  th,
+  td {
+    display: block;
+    text-align: left;
+  }
+  
+  thead {
+    display: none;
+  }
+
+  tbody > tr:nth-child(even) {
+    background-color: transparent;
+  }
+
+  table .button {
+    display: block;
+  }
+
+  .label {
+    display: inline;
+    font-weight: 700;
+  }
+
+  tbody th {
+    color: hsl(215, 25%, 100%);
+    background-color: hsl(215, 80%, 20%);
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+}
+
+.label {
+  display: none;
+}
