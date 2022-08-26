@@ -1,0 +1,3 @@
+The tutorial this subdirectory is based on can be found [here](https://www.digitalocean.com/community/tutorials/how-to-style-html-elements-with-borders-shadows-and-outlines-in-css).
+
+Both text and containers can be give css properties that add "shadow" effects: text-shadow for text and box-shadow for containers. containers can also be given outlines with the border property and rounded edges with the border-radius property. Combining these can give your page elements a sense of depth, but can also look a little silly if used in excess.
