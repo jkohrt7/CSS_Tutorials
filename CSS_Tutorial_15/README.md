@@ -1,0 +1,3 @@
+The tutorial this subdirectory is based on can be found [here](https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css).
+
+Besides built-in fonts, you can use custom fonts hosted on sites like "google fonts" in your webpages using a <link> at the beginning of your html. You can also have custom fonts hosted locally, loading them in with the `@font-face` media query in your css. While this originally required one file per font type (eg bold, semibold, and light) now many types can be included in (and loaded from ) the same file.

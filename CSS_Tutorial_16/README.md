@@ -1,0 +1,3 @@
+The tutorial this subdirectory is based on can be found [here](https://www.digitalocean.com/community/tutorials/how-to-create-layout-features-with-position-and-z-index-in-css).
+
+When using absolute, relative and static positioning, you may have problems with elements overlapping in an undesirable way. Defining the z-index of these elements will help you control this 3-D position. Explicitly defining some custom properties related to z-indices can help you keep track of z-index while leaving some room for smaller adjustments.
