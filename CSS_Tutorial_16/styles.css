@@ -1,0 +1,133 @@
+
+:root {
+  --z-1: 100;
+  --z-2: 200;
+  --z-3: 300;
+  --z-4: 400;
+  --z-5: 500;
+  --z-6: 600;
+  --z-7: 700;
+  --z-8: 800;
+  --z-9: 900;
+}
+
+body {
+  margin: 0;
+  font: 1rem / 1.5 sans-serif;
+}
+
+main {
+  margin: 6rem auto;
+  width: 95%;
+  max-width: 75ch;
+  font-size: 1.125rem;
+}
+
+figure {
+  position: relative;
+  margin: 2rem 0;
+  padding: 0;
+  z-index: var(--z-1);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h2 {
+  font: 400 1.875rem/1.25 MuseoModerno, sans-serif;
+  color: hsl(300, 40%, 30%);
+}
+
+figcaption {
+  position: absolute;
+  right: 0;
+  bottom: 1rem;
+
+  display: inline-block;
+  color: white;
+  background-color: hsl(210, 40%, 10%);
+  padding: 0.25rem 1rem;
+}
+
+figcaption a {
+  color: inherit;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-9);
+  font: 1.125rem / 1.25 MuseoModerno, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  color: white;
+  background: linear-gradient(250deg, hsl(300, 40%, 10%), hsl(300, 40%, 20%));
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-main {
+  display: flex;
+  align-items: stretch;
+}
+
+.item-top {
+  position: relative
+}
+
+.nav-sub {
+  display: none;
+}
+
+.link {
+  color: inherit;
+  display: block;
+  text-decoration: none;
+}
+
+.link-top {
+  padding: 1.25rem 1.5rem;
+}
+
+.link-sub {
+  padding: 0.75rem 1.5rem;
+}
+
+.item-top:hover .link-top,
+.item-top:focus .link-top,
+.item-top:focus-within .link-top {
+  background-color: black;
+}
+
+.link-sub:hover,
+.link-sub:focus {
+  background-color: hsl(210, 40%, 20%);
+}
+
+.item-top:hover .nav-sub,
+.item-top:focus .nav-sub,
+.item-top:focus-within .nav-sub {
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 15rem;
+  background-color: black;
+}
+
