@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+        <form>
+            <div>
+                <label for="name" class="large-label">Name</label>
+                <input id="name" type="text" placeholder = "First or Full Name"/>
+              </div>
+              <div>
+                <label for="email" class="large-label">Email</label>
+                <input id="email" type="email" placeholder = "name@example.com"/>
+              </div>
+              <div>
+                <label for="comp" class="large-label">Favorite CSS Compiler</label>
+                <select id="comp">
+                    <option value="sass">Sass</option>
+                    <option value="less">Less</option>
+                    <option value="stylus">Stylus</option>
+                    <option value="postcss">PostCSS</option>
+                    <option value="other">Other</option>
+                </select>
+              </div>
+              <div>
+                <fieldset>
+                  <legend class="large-label">Are you familiar with CSS Grid?</legend>
+                  <input type="radio" name="grid" id="yes" value="yes" />
+                  <label for="yes" class="small-label">Yes</label>
+                  <input type="radio" name="grid" id="no" value="no" />
+                  <label for="no" class="small-label">No</label>
+                </fieldset>
+              </div>
+              <div class="full-width">
+                <label for="message" class="large-label">Message</label>
+                <textarea id="message" placeholder = "Leave a message..."></textarea>
+              </div>
+              <div class="full-width">
+                <input type="checkbox" id="newsletter" />
+                <label for="newsletter" class="small-label">Receive our newsletter?</label>
+              </div>
+              <div class="full-width">
+                <button type="submit">Send Response</button>
+                <button type="reset">Clear Form</button>
+              </div>
+        </form>
+    </main>
+  </body>
+</html>
