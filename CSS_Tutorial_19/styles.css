@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font: 100% / 1.5 Inconsolata, monospace;
+  color: hsl(230, 100%, 95%);
+  background-color: hsl(230, 40%, 10%);
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+    0 0 0.125em hsla(320, 100%, 60%, 0.5),
+    -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.125),
+    0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.25);
+}
+
+main {
+  margin: 2rem auto 4rem;
+  width: 90%;
+  max-width: 70rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 2rem 0;
+  position: relative;
+  display: inline-block;
+}
+
+figure img {
+  display: block;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5rem 1rem 1rem;
+  background: linear-gradient(to top, hsla(230, 40%, 5%, 0.95), hsla(230, 40%, 5%, 0));
+}
+
+p {
+  font-size: 1.25rem;
+  max-width: 75ch;
+}
+
+.hero {
+  height: 80vh;
+  max-height: 40rem;
+}
+
+.hero-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom right;
+}
