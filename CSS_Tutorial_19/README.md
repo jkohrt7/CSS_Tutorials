@@ -1,0 +1,3 @@
+The tutorial this subdirectory is based on can be found [here](https://www.digitalocean.com/community/tutorials/how-to-style-figure-and-image-html-elements-with-css).
+
+Large images can be difficult to work with and need to be given styles that allow them to fit on any screen. max-width is an excellent starting point for making an image responsive, and alt tags + figcaptions make them easier to understand. The picture html element allows for multiple image sources--something that's very useful for customizing images based on size.

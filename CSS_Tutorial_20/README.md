@@ -1,0 +1,3 @@
+The tutorial this subdirectory is based on can be found [here](https://www.digitalocean.com/community/tutorials/how-to-style-common-form-elements-with-css).
+
+Forms are very common on the web, making it important to study basic styling for forms. The focus of the beginning of the article is on removing all the default browser styles; there are many for buttons, text areas, and input elements. There are even some default styles that are particular to certain browsers, like firefox needing an opacity of 1 for full color values in its input fields. CSS is also important for helping users distinguish between submit and clear buttons, focused elements, and radio vs checkbox inputs.

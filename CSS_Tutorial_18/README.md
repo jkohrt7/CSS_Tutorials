@@ -1,0 +1,3 @@
+The tutorial this subdirectory is based on can be found [here](https://www.digitalocean.com/community/tutorials/how-to-use-opacity-and-transparency-to-create-a-modal-in-css).
+
+Modals don't necessarily require javascript--combining several CSS features can achieve a similar effect. Essentially, a modal must be present over the top of a webpage but be unselectable and transparent under most circumstances. Using the :target pseudo element allows for links to trigger the appearance of this modal overlay (and its disappearance using another link).
